@@ -80,5 +80,45 @@ namespace @interface
         {
 
         }
+
+        private void DashBoardBtn_Click(object sender, EventArgs e)
+        {
+            indexPanelBtn.Location = new Point(3, 54);
+        }
+
+        private void indexPanelBtn_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void SendTokensBtn_Click(object sender, EventArgs e)
+        {
+            indexPanelBtn.Location = new Point(3, 99);
+        }
+
+        private void DataBtn_Click(object sender, EventArgs e)
+        {
+            indexPanelBtn.Location = new Point(3, 144);
+        }
+
+        private void PaymentsBtn_Click(object sender, EventArgs e)
+        {
+            indexPanelBtn.Location = new Point(3, 189);
+        }
+
+        private void WalletBtn_Click(object sender, EventArgs e)
+        {
+            indexPanelBtn.Location = new Point(3, 234);
+        }
+
+        private void btn6_Click(object sender, EventArgs e)
+        {
+            indexPanelBtn.Location = new Point(3, 279);
+        }
+
+        private void btn7_Click(object sender, EventArgs e)
+        {
+            indexPanelBtn.Location = new Point(3, 324);
+        }
     }
 }
